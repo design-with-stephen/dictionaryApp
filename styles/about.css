@@ -1,0 +1,118 @@
+/* 🌟 About Page */
+.about-hero {
+    background-color: #4f46e5;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-hero p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .about-content {
+    width: 100%;
+    /* background-color: #f9fafb; */
+  }
+  
+  .about-content .container {
+    width: 100%;
+    padding: 40px 20px;
+  }
+  
+  .about-content h2 {
+    font-size: 1.8rem;
+    color: #4f46e5;
+    margin-top: 30px;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #333;
+    margin-top: 10px;
+  }
+
+
+  .nav-links li a.active {
+    font-weight: bold;
+    color: #a5b4fc;
+  }
+
+  
+  /* ⚙️ How It Works */
+.how-it-works {
+    
+    background-color: #eef2ff;
+  }
+  
+  .how-it-works .container {
+    width: 100%;
+    padding: 40px 20px;
+  }
+  
+  .how-it-works h2 {
+    color: #4f46e5;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .how-it-works ol {
+    list-style: decimal inside;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  /* ❓ FAQ Section */
+  .faq-section {
+    padding: 40px 20px;
+    /* background-color: #f9fafb; */
+  }
+  
+  .faq-section .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .faq-section h2 {
+    color: #4f46e5;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .faq-question {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 0;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .faq-question:hover {
+    color: #ffffff;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 0 0 10px 0;
+    color: #555;
+    font-size: 0.95rem;
+  }
+  

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dictionary App</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/util.css">
+</head>
+<body>
+    <!-- 🌐 Navbar -->
+  <nav class="navbar">
+    <div class="logo">Dicto</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="pages/about.html">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      ☰
+    </div>
+  </nav>
+  <!--  Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <div class="close-btn" id="closeBtn">&times;</div>
+    <ul>
+      <li><a href="#">🏠 Home</a></li>
+      <li><a href="pages/about.html">📄 About</a></li>
+      <li><a href="#">✉️ Contact</a></li>
+    </ul>
+  </div>
+  <!-- OVERLAY -->
+  <div class="overlay" id="overlay"></div>
+
+  <div class="container">
+    <h1>📖 Dictionary App</h1>
+    <input type="text" id="wordInput" placeholder="Enter a word..." />
+    <button id="searchBtn">Search</button>
+    
+    <div class="result" id="resultBox">
+      <!-- Word info will appear here -->
+    </div>
+  </div>
+  <!-- ℹ️ About Section -->
+<section class="about-section">
+    <div class="about-container">
+      <h2>About Dicto</h2>
+      <p>
+        Dicto is a simple, clean, and responsive dictionary web app built to help you find word definitions instantly.
+        Whether you're a student, writer, or just curious, Dicto delivers clear meanings, phonetics, and examples
+        straight from the web using a free and open API.
+      </p>
+      <p>
+        This app was designed with love by <strong>Lomoro</strong> to make learning new words easier and more fun —
+        anytime, anywhere. 💡📚
+      </p>
+    </div>
+  </section>
+  <!-- 👣 Footer -->
+<footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <p>&copy; <span id="year"></span> Dicto. All rights reserved.</p>
+        <p>Designed by <strong>Lomoro</strong></p>
+      </div>
+      <div class="footer-right">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Support</a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="scripts/main.js"></script>
+</body>
+</html>

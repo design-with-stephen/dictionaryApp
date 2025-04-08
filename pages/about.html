@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Dicto</title>
+  <link rel="stylesheet" href="../styles/navbar.css" />
+  <link rel="stylesheet" href="../styles/about.css">
+  <link rel="stylesheet" href="../styles/util.css" />
+</head>
+<body>
+  <!-- 🌐 Navbar -->
+  <nav class="navbar">
+    <div class="logo">Dicto</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">☰</div>
+  </nav>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <div class="close-btn" id="closeBtn">&times;</div>
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+      <li><a href="about.html">📄 About</a></li>
+      <li><a href="#">✉️ Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- 🧠 About Hero -->
+  <section class="about-hero">
+    <h1>About Us</h1>
+    <p>Learn more about Dicto – your simple and fast online dictionary.</p>
+  </section>
+
+  <!-- ℹ️ About Content -->
+  <section class="about-content">
+    <div class="container">
+      <h2>What is Dicto?</h2>
+      <p>
+        Dicto is a lightweight, responsive dictionary web app built to help learners, writers, students, and word nerds
+        find definitions instantly. Whether you're studying for exams, exploring new vocabulary, or writing something
+        creative, Dicto delivers clear definitions and phonetics using free public APIs.
+      </p>
+
+      <h2>Why Dicto?</h2>
+      <p>
+        We created Dicto to provide a clean, distraction-free, and fast word lookup tool — accessible from any device. It's more than just a dictionary. It’s your pocket word companion. 🔍📘
+      </p>
+
+      <h2>Our Mission</h2>
+      <p>
+        We believe everyone deserves free access to learning tools. Dicto is built with that vision in mind — open,
+        accessible, and user-friendly. More features coming soon!
+      </p>
+    </div>
+  </section>
+
+  <!-- ⚙️ How It Works Section -->
+<section class="how-it-works">
+    <div class="container">
+      <h2>How It Works</h2>
+      <ol>
+        <li><strong>Type a word:</strong> Enter any English word into the search bar.</li>
+        <li><strong>Hit Search:</strong> Press the search button or hit Enter.</li>
+        <li><strong>View Results:</strong> See definitions, phonetics, and usage examples powered by the Dictionary API.</li>
+      </ol>
+    </div>
+  </section>
+  
+  <!-- ❓ FAQs Section -->
+  <section class="faq-section">
+    <div class="container">
+      <h2>FAQs</h2>
+  
+      <div class="faq-item">
+        <button class="faq-question">Is Dicto free to use?</button>
+        <div class="faq-answer">
+          <p>Yes! Dicto is completely free to use for everyone, anywhere.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Do I need to create an account?</button>
+        <div class="faq-answer">
+          <p>No account is needed. Dicto works right out of the box — no login, no fuss.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Can I use Dicto on my phone?</button>
+        <div class="faq-answer">
+          <p>Absolutely! Dicto is fully responsive and mobile-friendly.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Where does Dicto get its data?</button>
+        <div class="faq-answer">
+          <p>Dicto fetches word data from a free and reliable dictionary API (like dictionaryapi.dev).</p>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+  <!-- 👣 Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <p>&copy; <span id="year"></span> Dicto. All rights reserved.</p>
+        <p>Designed by <strong>Lomoro</strong></p>
+      </div>
+      <div class="footer-right">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Support</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../scripts/faq.js"></script>
+  <script src="../scripts/navbar.js"></script>
+</body>
+</html>

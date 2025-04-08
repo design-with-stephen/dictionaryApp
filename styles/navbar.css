@@ -1,0 +1,166 @@
+/* 🌐 Navbar Styles */
+.navbar {
+    background-color: #4f46e5;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  
+  /* 🌐 Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    background-color: #4f46e5;
+    color: white;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+  }
+  
+  .sidebar ul li {
+    margin: 20px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .sidebar .close-btn {
+    font-size: 24px;
+    cursor: pointer;
+    text-align: right;
+  }
+  
+  /* 🔳 Overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    display: none;
+    z-index: 999;
+  }
+  
+  /* 📱 Hamburger icon */
+  .hamburger {
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: block;
+  }
+  
+  /* Show sidebar */
+  .sidebar.show {
+    left: 0;
+  }
+  
+  .overlay.show {
+    display: block;
+  }
+
+/* 👣 Footer Styles */
+.footer {
+    background-color: #1e1b4b;
+    color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-left p {
+    margin: 5px 0;
+  }
+  
+  .footer-right {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .footer-right a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-right a:hover {
+    color: #a5b4fc;
+  }
+  
+  @media (max-width: 600px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-right {
+      margin-top: 15px;
+      justify-content: center;
+    }
+  }
+  /* 📱 Mobile Nav */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      background-color: #4f46e5;
+      padding-top: 10px;
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  
